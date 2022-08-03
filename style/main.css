@@ -16,7 +16,13 @@ body {
   margin-top: 250px;
   text-align: center;
   background-color: rgba(201, 201, 201, 0.189);
-  border-radius: 35px
+  border-radius: 35px;
+  transition: 0.3s ease;
+}
+
+.section-content:hover {
+  transform: scale(1.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .question-form {
