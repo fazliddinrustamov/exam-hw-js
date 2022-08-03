@@ -58,12 +58,24 @@ body {
   border: solid 2px black;
 }
 
+.students-name::placeholder {
+  padding-left: 10px;
+  color: rgb(152, 151, 151);
+  font-weight: bold;
+}
+
 .students-score {
   width: 200px;
   height: 30px;
   border: none;
   border-radius: 30px;
   border: solid 2px black;
+}
+
+.students-score::placeholder {
+  padding-left: 10px;
+  color: rgb(152, 151, 151);
+  font-weight: bold;
 }
 
 .send-btn {
